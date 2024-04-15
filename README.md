@@ -1,6 +1,10 @@
 # LangChain Document QA
 
-Interface for interacting with files using langchain. Inspired by [ollama](https://github.com/ollama/ollama) examples.
+Interface for interacting with files using langchain. Inspired by [ollama](https://github.com/ollama/ollama) examples. It follows the usual structure:
+a) Load documents
+b) Chunk them
+c) Create embeddings and store them into a vector datastore
+d) Retrieve from the datastore using a LLM
 
 ## Setup
 
